@@ -1,7 +1,7 @@
 
 import './App.css'
-// import Axious from './components/Axious'
-// import EventHandling from './components/EventHandling'
+        // import Axious from './components/Axious'
+        // import EventHandling from './components/EventHandling'
 
 
 // import Hero from './components/Hero'
