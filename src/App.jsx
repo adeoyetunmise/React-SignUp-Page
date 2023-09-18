@@ -1,0 +1,46 @@
+
+import './App.css'
+import Axious from './components/Axious'
+import EventHandling from './components/EventHandling'
+import Google from './components/Google/google'
+
+import Hero from './components/Hero'
+import Mapping from './components/Mapping'
+import NavBar from './components/NavBar'
+import {Routes, Route} from 'react-router-dom'
+import About from './components/about'
+import Feed from './components/Feed'
+import NotFound from './components/NotFound'
+import Library from './components/Library'
+import Formik from './components/Formik'
+
+function App() {
+ 
+
+  return (
+    <>
+      {/* <NavBar/>
+      <Hero/>
+      <Google/> */}
+      {/* <Mapping/> */}
+      {/* <EventHandling/> */}
+      {/* <Axious/>
+      <About/>
+      <Feed/>
+      <NotFound/>
+      <Library/> */}
+      
+      
+      <Routes>
+        <Route path = '*' element ={<NotFound/>}/>
+      <Route path ='/about/:id' element ={<About/>}/>
+      <Route path = 'feed/*' element = {<Feed/>}/>
+      <Route path = 'feed/library' element = {<Library/>}/>
+      <Route path = 'formik' element = {<Formik/>}/>
+      
+      </Routes>
+    </>
+  )
+}
+
+export default App
