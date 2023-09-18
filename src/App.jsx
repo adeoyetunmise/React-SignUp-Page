@@ -2,7 +2,7 @@
 import './App.css'
 import Axious from './components/Axious'
 import EventHandling from './components/EventHandling'
-import Google from './components/Google/google'
+
 
 import Hero from './components/Hero'
 import Mapping from './components/Mapping'
@@ -13,6 +13,7 @@ import Feed from './components/Feed'
 import NotFound from './components/NotFound'
 import Library from './components/Library'
 import Formik from './components/Formik'
+import Google from './components/Google'
 
 function App() {
  
@@ -21,7 +22,7 @@ function App() {
     <>
       {/* <NavBar/>
       <Hero/>
-      <Google/> */}
+     
       {/* <Mapping/> */}
       {/* <EventHandling/> */}
       {/* <Axious/>
@@ -29,6 +30,7 @@ function App() {
       <Feed/>
       <NotFound/>
       <Library/> */}
+      {/* <Google/> */}
       
       
       <Routes>
