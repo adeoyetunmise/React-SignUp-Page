@@ -1,19 +1,19 @@
 
 import './App.css'
-import Axious from './components/Axious'
-import EventHandling from './components/EventHandling'
+// import Axious from './components/Axious'
+// import EventHandling from './components/EventHandling'
 
 
-import Hero from './components/Hero'
-import Mapping from './components/Mapping'
-import NavBar from './components/NavBar'
+// import Hero from './components/Hero'
+// import Mapping from './components/Mapping'
+// import NavBar from './components/NavBar'
 import {Routes, Route} from 'react-router-dom'
 import About from './components/about'
 import Feed from './components/Feed'
 import NotFound from './components/NotFound'
 import Library from './components/Library'
 import Formik from './components/Formik'
-import Google from './components/Google'
+// import Google from './components/Google'
 
 function App() {
  
